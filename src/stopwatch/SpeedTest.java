@@ -160,7 +160,7 @@ public class SpeedTest {
 		SpeedTest.testAppendToStringBuilder(100000);
 		
 		// Use a large loop count for floating point tests in order to get accurate times
-		int counter = 1000000000; 
+		int counter = 1_000_000_000; 
 		
 		SpeedTest.testSumDoublePrimitive(counter);
 		SpeedTest.testSumDouble(counter);
