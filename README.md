@@ -14,10 +14,10 @@ Elapsed time 0.002900 sec
 ##Sum array of double primitives with a Billion time.
 Elapsed time 0.917755 sec
 
-Sum array of Double objects with a Billion time.
+##Sum array of Double objects with a Billion time.
 Elapsed time 4.064168 sec
 
-Sum array of BigDecimal with a Billion time.
+##Sum array of BigDecimal with a Billion time.
 Elapsed time 7.175902 sec
 
 
