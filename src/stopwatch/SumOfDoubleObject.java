@@ -1,8 +1,9 @@
 package stopwatch;
 
 /**
- * task 4: add Double objects from an array. 
- * You need a large counter value to get a measurable time.
+ * task 4: add Double objects from an array. You need a large counter value to
+ * get a measurable time.
+ * 
  * @author Thitiwat Thongbor
  * @version 1.0
  *
@@ -14,7 +15,9 @@ public class SumOfDoubleObject implements Runnable {
 
 	/**
 	 * Initialize the object.
-	 * @param counter is how many times adding to Double Object.
+	 * 
+	 * @param counter
+	 *            is how many times adding to Double Object.
 	 */
 	public SumOfDoubleObject(int counter) {
 		this.counter = counter;
@@ -37,7 +40,6 @@ public class SumOfDoubleObject implements Runnable {
 			sum = sum + values[i];
 		}
 		System.out.println("sum = " + sum);
-
 	}
 
 	/**

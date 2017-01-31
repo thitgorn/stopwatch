@@ -1,8 +1,9 @@
 package stopwatch;
 
 /**
- * task 3: add double primitives from an array.
- * You need a large counter value to get a measurable time.
+ * task 3: add double primitives from an array. You need a large counter value
+ * to get a measurable time.
+ * 
  * @author Thitiwat Thongbor
  * @version 1.0
  *
@@ -14,7 +15,9 @@ public class SumOfdouble implements Runnable {
 
 	/**
 	 * Initialze the Object.
-	 * @param counter is how many time adding to double primitives..
+	 * 
+	 * @param counter
+	 *            is how many time adding to double primitives..
 	 */
 	public SumOfdouble(int counter) {
 		this.counter = counter;

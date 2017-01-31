@@ -3,8 +3,8 @@ package stopwatch;
 import java.math.BigDecimal;
 
 /**
- * task 5: add BigDecimal objects from an array. 
- * You need a large counter value to get a measurable time.
+ * task 5: add BigDecimal objects from an array. You need a large counter value
+ * to get a measurable time.
  * 
  * @author Thitiwat Thongbor
  * @version 1.0
@@ -17,7 +17,9 @@ public class SumOfBigDecimal implements Runnable {
 
 	/**
 	 * Initialze the Object
-	 * @param counter is how many times adding to BigDecimal Object.
+	 * 
+	 * @param counter
+	 *            is how many times adding to BigDecimal Object.
 	 */
 	public SumOfBigDecimal(int counter) {
 		this.counter = counter;

@@ -101,8 +101,8 @@ public class SpeedTest {
 	
 	
 	/**
-	 * task 4: add Double objects from an array.
-	 * You need a large counter value to get a measurable time.
+	 * task 4: add Double objects from an array. You need a large counter value
+	 * to get a measurable time.
 	 */
 	public static void testSumDouble(int counter) {
 		System.out.printf("Sum array of Double objects with count=%,d\n", counter);

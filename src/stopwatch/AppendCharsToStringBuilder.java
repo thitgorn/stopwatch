@@ -1,6 +1,8 @@
 package stopwatch;
+
 /**
  * task 2: append chars to a StringBuilder
+ * 
  * @author Thitiwat Thongbor
  * @version 1.0
  *
