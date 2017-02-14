@@ -42,7 +42,7 @@ public class Stopwatch {
 
 	/**
 	 * The time between started clock and current time, if it's running. Between
-	 * started timek and stoped timeer , if it isn't running.
+	 * started timer and stopped timer , if it isn't running.
 	 * 
 	 * @return the elapsed time in seconds with decimal.
 	 */
@@ -57,7 +57,7 @@ public class Stopwatch {
 	/**
 	 * check is the stopwatch running or not.
 	 * 
-	 * @return ture if the stopwatch is runningm false if stopwatch is stopped.
+	 * @return true if the stopwatch is running false if stopwatch is stopped.
 	 */
 	public Boolean isRunning() {
 		return this.isRunning;
